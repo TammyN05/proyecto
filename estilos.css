@@ -65,6 +65,39 @@ p{
 
 /*FIN DE ESTILOS GRALES*/
 
+/*HEADER Y NAV*/
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+/*END DEL HEADER*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*INICIO AGENDA*/
 
 .container{
@@ -73,7 +106,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8C9DDF;
 }
 
 .agenda{
@@ -153,7 +185,18 @@ p{
 }
 
 
-
-
-
 /*FIN AGENDA*/
+
+/*FOOTER*/
+
+.iconos li{
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.iconito:hover{
+    transform: scale(1.1);
+    color: #00D5D9;
+}
+
+/*END DEL FOOTER*/
