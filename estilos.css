@@ -11,6 +11,9 @@
 html{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #212529;
+}
 
 h1{
     font-family: 'Poppins', sans-serif;
@@ -71,31 +74,7 @@ p{
     height: 60px;
 }
 
-
-
-
-
-
-
-
-
 /*END DEL HEADER*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*INICIO AGENDA*/
@@ -106,6 +85,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #212529;
+    
 }
 
 .agenda{
@@ -144,7 +125,7 @@ p{
         width: 2px;
         left: 50%;
         transform: translateX(-50%);
-        background-color: #000000;
+        background-color: #f4f4f4;
     }
     .agenda ul li{
         width: 50%;
@@ -169,7 +150,7 @@ p{
         position: absolute;
         height: 20px;
         width: 20px;
-        background-color: #88348E;
+        background-color:#8C9DDF;
         border-radius: 50%;
         top: 0%;
     }
@@ -192,6 +173,7 @@ p{
 .iconos li{
     padding: 20px;
     justify-content: space-evenly;
+    color: #f4f4f4;
 }
 
 .iconito:hover{
