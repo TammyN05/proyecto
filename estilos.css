@@ -92,8 +92,15 @@ p{
     padding: 20px;
     background-color: #eaeaea;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.agenda ul li:first-child{
     margin-top: 50px;
+}
+
+.agenda ul li:last-child{
+    margin-bottom:50px;
 }
 
 
@@ -122,7 +129,7 @@ p{
     .agenda ul li:nth-child(even){
         float: right;
         clear: left;
-        transform: translateX(30px);
+        transform: translateX(0px);
     }
 
     .agenda ul li::after{
@@ -140,7 +147,7 @@ p{
      }
      .agenda ul li:nth-child(even)::after{
         transform: translate(-50%, -50%); 
-        left: -45px;
+        left: -15px;
      }
     
 }
