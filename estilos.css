@@ -210,6 +210,150 @@ p{
 
 /*FIN AGENDA*/
 
+/*INICIO CATEGORIAS*/
+#categorias{
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.categoriasi{
+    display: flex;
+    justify-content: space-between;
+}
+.categoriasi button{
+    margin-bottom: 0px;
+}
+.categoriasi h3{
+    color: #000000;
+}
+.categoriasi p{
+    color:#000000
+}
+.categoriasi h2{
+    font-size: 1em;
+}
+#categorias .containerc{
+    padding: 150px 12px;
+}
+
+#categorias h2{
+    margin-top: 0;
+}
+
+#categorias .cartauno{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#categorias .cartados{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#categorias .cartatres{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#categorias .cartacuatro{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.cartauno{
+    background-image: linear-gradient(
+        0deg,
+        #8c9ddf,
+        #8c9ddfbd
+    )
+        ,url();
+}
+.cartados{
+    background-image: linear-gradient(
+        0deg,
+        #8c9ddf,
+        #8c9ddfbd
+    )
+        ,url();
+}
+
+.cartatres{
+    background-image: linear-gradient(
+        0deg,
+        #8c9ddf,
+        #8c9ddfbd
+    )
+        ,url();
+}
+.cartacuatro{
+    background-image: linear-gradient(
+        0deg,
+        #8c9ddf,
+        #8c9ddfbd
+    )
+        ,url();
+}
+/*FIN CATEGORIAS*/
+
+/*INICIO ARTISTAS*/
+.A img{
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.A img:hover{
+    opacity: 1;
+}
+/*FIN ARTISTAS*/
+
+/*INICIO CONTACTO*/
+.contact >*{
+    padding: 1em;
+}
+.contact-form .titulo{
+    color: #88348E;
+}
+.contact-form{
+    background-color: #11111154;
+    display: flex;
+    justify-content: space-between;
+} 
+.contact-form form p{
+    margin: 5px;
+    padding: .4em;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form textarea{
+    width: 100%;
+    padding: .5em;
+    border: none;
+    background-color: none;
+    outline: none;
+    color: #000000;
+}
+.contact-form label,
+.contact-form h2{
+    color: rgb(255, 255, 255);
+}
+.contact-info p,
+.contact-info ul,
+.contact-info h4{
+    color: #ffffff;
+}
+.map{
+    display: flex;
+    align-self: center;
+}
+/*CONTACTO*/
+
 /*FOOTER*/
 
 .iconos li{
