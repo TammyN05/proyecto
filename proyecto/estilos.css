@@ -294,4 +294,8 @@ p{
 .contact-info h4{
     color: #ffffff;
 }
+.map{
+    display: flex;
+    align-self: center;
+}
 /*CONTACTO*/
