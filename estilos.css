@@ -116,6 +116,48 @@ p{
     margin-bottom:50px;
 }
 
+/*GABRIEL*/
+#iconos :hover{
+    transform: scale(1.1) ;
+    transition: 0.1s;
+}
+#iconos {
+    margin-block: 10% !important;
+}
+#sponsors {
+    margin-top: 10%;
+    flex-wrap: nowrap;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 4% !important;
+    border-radius: 50% 50% 46% 54% / 64% 66% 34% 36%  ;
+}
+#sponsors img {
+    opacity: 70%;
+    max-width: 8%;
+    margin: 70px;
+}
+@media (max-width:576px){
+#CARTASEVENTOS {
+        flex-wrap: wrap;
+}
+#sponsors {
+
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+#sponsors img {
+    max-width: 30% !important;
+    margin: auto !important;
+}
+#PROXIMOSEVENTOS{
+    display: block;
+    justify-content: end;
+}
+}
+
 
 @media only screen and (min-width: 768px){
     .agenda::before{
