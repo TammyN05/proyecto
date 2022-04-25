@@ -20,113 +20,513 @@
         Si necesitan otros, agreguenlos, y recuerden que los SCRIPT van antes de que termine el body, no en el head.-->
 
     <!--HEADER Y NAV (TAMMY)-->
-    <!--****************EL CONTENIDO VA ACA*********************-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"  href="index.html"><img src="fotos/LOGO PROYECTO blanco.png" alt="Logo" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Categorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Artistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sponsors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Proximos eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!--END DEL HEADER-->
 
     <!--PORTADA(TAMMY)-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="fotos/PORTADA.gif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+      </div>
     <!--END DE LA PORTADA-->
 
-    <!--CATEGORIAS-->
+    <!--CATEGORIAS (vale)-->
+    <section id="categorias">
+      <div class="containerC">
+          <h2 class="p-2">Categorias</h2>
+          <div class="categoriasi">
+              <div class="cartauno" id="cartauno">
+                  <h3 class="p-2 m-3">Juegos</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, soluta distinctio? Animi iure, 
+                  </p>
+                  <button class="btn">Ver Más</button>
+              </div> <br>
+              <div class="cartados p-5" id="cartados">
+                  <h3 class="p-2 m-3">IRL</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, soluta distinctio? Animi iure, 
+                  </p>
+                  <button class="btn">Ver Más</button>
+              </div> <br>
+              <div class="cartatres" id="cartatres">
+                  <h3 class="p-2 m-3">Música</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, soluta distinctio? Animi iure, 
+                  </p>
+                  <button class="btn">Ver Más</button>
+              </div> <br>
+              <div class="cartacuatro" id="cartacuatro">
+                  <h3 class="p-2 m-3">Creative</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, soluta distinctio? Animi iure, 
+                  </p>
+                  <button class="btn">Ver Más</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--END CATEGORIAS-->
 
-    <!--FRASE (GABITO)-->
-
-    <div class="gg container-md d-block justify-content-center text-center text-light m-4 fs-6 bg-secondary bg-opacity-25" id="sponsors" style="padding:6%">
-        <i class="fa-brands fa-twitch p-4" style="font-size: 50px;"></i>
-        <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reprehenderit consectetur eveniet facilis quam ullam est, quos animi impedit enim in qui asperiores molestias velit quaerat veniam blanditiis iusto ut?</p>
+     <!--FRASE (GABITO)-->
+<div class="d-flex justify-content-between" style="position: relative;" id="sobreelevento">
+    <section class="d-block" style="width:40%" id="seccionsobre">
+    <div>
+        <h2 style="margin-left: 20%; margin-bottom: 3%; margin-top: 5%;">SOBRE EL EVENTO</h2>
+        <div class="t" style="border-left: 5px solid rgb(165, 163, 163); margin-left: 10%; width: 95%; padding-left: 5%;">
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, laudantium. Magnam quos alias doloremque architecto, laudantium cum tenetur iusto non. Ad, modi magni. Nesciunt consequatur sed vitae atque, fugiat odit.</p>
+        </div>
+    </div>
+    <div class="margin-top: 10%">
+        <h2 style="margin-left: 20%; margin-bottom: 3%; margin-top: 5%;">DETALLES TÉCNICOS</h2>
+        <div class="t" style="border-left: 5px solid rgb(165, 163, 163); margin-left: 10%; width: 95%; padding-left: 5%;">
+        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, laudantium. Magnam quos alias doloremque architecto, laudantium cum tenetur iusto non. Ad, modi magni. Nesciunt consequatur sed vitae atque, fugiat odit.</p>
+        </div>
+    </div>
+    </section>
+        <section class="d-flex m-4"  id="iconoscontainer">
+        <div class="px-4 py-3" id="iconos" style="position: relative;">
+            <p class="text-light"> <img src="fotos/Creative.svg" alt="Creative"> -- Espacio para los streamers artistas. </p>
+            <p class="text-light"> <img src="fotos/Esports.svg" alt="E-sports"> -- E-sports en vivo.</p>
+            <p class="text-light"> <img src="fotos/irl_icon.svg" alt="irl_icon"> -- Charla con tu streamer favorito. </p>
+            <p class="text-light"> <img src="fotos/Gaming_icon.svg" alt="Gaming_icon"> -- Gaming no competitivo</p>
+            <p class="text-light"> <img src="fotos/music_icon.svg" alt="music_icon"> -- Streams musicales.</p>
+            <button type="button" class="btn btn-outline-secondary">Registrarse</button>
+        </div>
         
-    </div>
-    <div class="gg d-flex justify-content-around m-2" id="iconos">
-        <img src="fotos/Creative.svg" alt="Creative">
-        <img src="fotos/Esports.svg" alt="E-sports">
-        <img src="fotos/irl_icon.svg" alt="irl_icon">
-        <img src="fotos/Gaming_icon.svg" alt="Gaming_icon">
-        <img src="fotos/music_icon.svg" alt="music_icon">
-    </div>
-
+        </section> 
+    
+</div>
     <!--ACTIVIDADES DEL EVENTO-->
 
-    <!--ARTISTAS-->
-
+    <!--ARTISTAS(vale)-->
+    <section id="artistas">
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-6 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-6 align-content-center justify-content-center d-flex">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary" id="like">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-5 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-7 align-content-center justify-content-center d-flex order-first">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-6 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-6 align-content-center justify-content-center d-flex">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary" id="like">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-5 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-7 align-content-center justify-content-center d-flex order-first">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-6 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-6 align-content-center justify-content-center d-flex">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary" id="like">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-5 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-7 align-content-center justify-content-center d-flex order-first">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-6 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-6 align-content-center justify-content-center d-flex">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary" id="like">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="A container-lg">
+          <div class="row">
+              <div class="p-4 col-5 py-1">
+                      <img src="fotos/coscu_portada.jpg_375108804 (copia).webp" width="400px" alt="...">
+              </div>
+              <div class="col-7 align-content-center justify-content-center d-flex order-first">
+                  <div class="p-5">
+                      <h5>Nombre Del Artista</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores natus minus provident, ipsa mollitia dolores repudiandae, temporibus delectus nemo repellendus ducimus libero, voluptas veniam vel suscipit quas? Voluptas, quidem harum.</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Leer Más
+                      </button>
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Artista</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut vel ipsa amet inventore, beatae aperiam quo quidem quia, rerum, voluptatem a reiciendis quas cum aliquam id velit ab. In.</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                      <button type="button" class="btn btn-primary">Like</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br>
+  </section>
+  <!--END ARTISTAS-->
+  
     <!--AGENDA(TAMMY)-->
+       
+    <!--END DE LA AGENDA-->
 
     <!--SPONSORS (Gabito)-->
  
-    <div class="d-flex ms-4 bg-secondary bg-opacity-25" id="sponsors">
+    <div class="d-flex bg-dark" id="sponsors">
       
-        <img src="fotos/Bacardí_logo.png" alt="logoBacardi">
-        <img src="fotos/Channel_logo.png" alt="cahnnel">
-        <img src="fotos/Laliga_logo.png" class="img-fluid"  alt="logoLaliga">
-        <img src="fotos/Logo_wii.png" alt="logowii">
-        <img src="fotos/Cocacola.png" alt="logoCocacola">
-    </div>
+      <img src="fotos\Bacardí__logo.png" alt="logoBacardi">
+      <img src="fotos/Channel_logo.png" alt="cahnnel">
+      <img src="fotos/Laliga_logo.png" class="img-fluid"  alt="logoLaliga">
+      <img src="fotos/Logo_wii.png" alt="logowii">
+      <img src="fotos/Cocacola.png" alt="logoCocacola">
+  </div>
 
     <!--PROXIMOS EVENTOS (GABITO)--> 
-    <div class="gg container-md text-center" id="PROXIMOSEVENTOS">
+    <div class="gg container-md" id="PROXIMOSEVENTOS">
    
-        <h2 class="gg text-center text-light" style="padding: 5%;">PRÓXIMOS EVENTOS</h2>
-   
-    
-        <div class="gg d-flex justify-content-around" id="CARTASEVENTOS">
-            <div class="card m-4" style="width: 18rem;">
-                <img src="fotos\PROXIMOS EVENTOS 1.png" class="card-img-top" alt="foto de alejandro luzardo">
-                <div class="card-body">
-                <h5 class="card-title">Alejandro Luzardo</h5>
-                
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item ms-4">DOMINGO 12 DE JUNIO, 20H</li>
-                <li class="list-group-item ms-4"><button type="button" class="btn btn-warning text-light">SALA PRINCIPAL</button></li>
-                <li class="list-group-item ms-4">MÚSICA</li>
-                </ul>
-                <div class="card-body">
-                <p class="card-text" style="font-size: 14px;">El candombe, cultura y tradición afrouruguaya en el proyecto musical de Alejandro Luzardo, en el marco del Fortalecimiento de las Artes.</p>
-                <a href="#" class="card-link">Ver más</a>
-                </div>
-            </div>
-            <div class="card m-4" style="width: 18rem;">
-                <img src="fotos\PROXIMOS EVENTOS 1.png" class="card-img-top" alt="foto de serenata">
-                <div class="card-body">
-                <h5 class="card-title">Serenata a la luz de la luna</h5>
-                
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item ms-4">SÁBADO 23 DE ABRIL, 20H</li>
-                <li class="list-group-item ms-4"><button type="button" class="btn text-light" style="background-color: blueviolet;">SALA DELMIRA AGUSTINI</button></li>
-                <li class="list-group-item ms-4">MÚSICA</li>
-                </ul>
-                <div class="card-body">
-                <p class="card-text" style="font-size: 11px;">Álvaro Riccardi presenta un atractivo programa de canciones. En él reúne obras emblemáticas del universo del jazz , el cine y la comedia musical, con algunas sutiles pinceladas a la ópera y a nuestro Río de la Plata.</p>
-                <a href="#" class="card-link">Ver más</a>
-                </div>
-            </div>
-            <div class="card m-4" style="width: 18rem;">
-                <img src="fotos\PROXIMOS EVENTOS 1.png" class="card-img-top" alt="foto de helen olhausen">
-                <div class="card-body">
-                <h5 class="card-title">Helen Olhausen</h5>
-                
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item ms-4">19 Y 20 DE ABRIL, 20H</li>
-                <li class="list-group-item ms-4"><button type="button" class="btn text-light" style= "background-color: #00CC99">SALA PRINCIPAL</button></li>
-                <li class="list-group-item ms-4">MÚSICA</li>
-                </ul>
-                <div class="card-body">
-                <p class="card-text" style="font-size: 14px;">La compositora, cantante y productora presenta una experiencia musical, con el disco "Romperse" como eje central y estrenando nuevas canciones.</p>
-                <a href="#" class="card-link">Ver más</a>
-                </div>
-            </div>
-        </div>
-        <div class="gg d-flex justify-content-center" style="margin-top: 10%;">
-        <button type="button" class="btn btn-secondary btn-lg text-center">RESERVAR ENTRADAS</button>
+      <h2 class="gg text-center text-light" style="padding: 5%;">PRÓXIMOS EVENTOS</h2>
+ 
+      <div class="container">
+        <div class="agenda">
+            <ul>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 1</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 2</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 3</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 4</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 5</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 6</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 7</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+                <li>
+                    <div class="agenda-content">
+                        <h1>Heading 8</h1>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam non sunt nisi. Blanditiis dolore quae aliquam unde facere, labore repellat eos quasi accusantium, quo nam omnis ab tempore voluptatibus?</P>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
+      <div class="gg d-flex justify-content-center" style="margin-top: 10%;">
+      <button type="button" class="btn btn-secondary btn-lg text-center">RESERVAR ENTRADAS</button>
+      </div>
+  </div>
 
-
-    
 
     <!--SECCION DE CONTACTO-->
 
     <!--FOOTER-->
+<div class="footer-container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <ul style="color:#ffffff; list-style: none;">
+          <li>© 2022 The ULTRA</li>
+          <li>contacto@theultra.com</li>
+          <li>6666-6666</li>
+          <li>De Matea al mundo</li>
+      </ul>
+    </div>
+    <ul class="iconos nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li><i class="iconito fa-brands fa-twitch" style="font-size: 25px;"></i>
+        <li><i class="iconito fa-brands fa-twitter" style="font-size: 25px;"></i> </li>
+        <li><i class="iconito fa-brands fa-instagram" style="font-size: 25px;"></i></li>
+        <li><i class="iconito fa-brands fa-youtube" style="font-size: 25px;"></i></li></li>
+        <li><i class="iconito fa-brands fa-spotify" style="font-size: 25px;"></i></li></li>
+    </ul>
+  </footer>
+</div>
+
+   
+
+
+
+
+
+    <!--END DEL FOOTER-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
